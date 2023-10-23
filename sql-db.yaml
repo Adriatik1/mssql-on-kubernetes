@@ -30,7 +30,7 @@ spec:
       labels:
         app: mssql
     spec:
-      terminationGracePeriodSeconds: 10
+      terminationGracePeriodSeconds: 50
       containers:
       - name: mssql
         image: mcr.microsoft.com/mssql/server:2022-latest
