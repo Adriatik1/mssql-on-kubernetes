@@ -36,9 +36,6 @@ spec:
         image: mcr.microsoft.com/mssql/server:2022-latest
         ports:
         - containerPort: 1433
-        command: ["sleep"]
-        args:
-          - "3600000"
         env:
         - name: ACCEPT_EULA
           value: "Y"
